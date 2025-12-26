@@ -1,40 +1,41 @@
 # GatherMapOverlay
 
-ギャザラー（採掘師・園芸師）の採集ポイントをメインマップに表示するDalamudプラグインです。
+A Dalamud plugin that displays gathering points on the main map for Miners and Botanists.
 
-## 機能
+## Features
 
-- プレイヤー周囲の採取可能な採集ポイントをマップに表示
-- 現在のクラスに対応するポイントのみ表示（採掘師→採掘系、園芸師→園芸系）
-- 主道具/副道具でアイコンを区別
-  - 採掘（主道具）/ 砕岩（副道具）
-  - 伐採（主道具）/ 草刈（副道具）
-- 伝説/刻限ノードは別アイコンで表示
+- Shows harvestable gathering points near the player on the map
+- Only displays nodes matching your current class (Miner → Mining nodes, Botanist → Botany nodes)
+- Different icons for primary/secondary tools
+  - Mining (Primary) / Quarrying (Secondary)
+  - Logging (Primary) / Harvesting (Secondary)
+- Legendary/Unspoiled nodes shown with distinct icons
 
-## インストール
+## Installation
 
-1. Dalamudの設定を開く
-2. 「試験的機能」タブで「カスタムプラグインリポジトリ」に以下を追加：
+1. Open Dalamud Settings (`/xlsettings`)
+2. Go to "Experimental" tab and add this to "Custom Plugin Repositories":
    ```
-   https://raw.githubusercontent.com/notYuta/GatherMapOverlay/main/repo.json
+   https://raw.githubusercontent.com/notYuta/DalamudPluginRepo/main/repo.json
    ```
-3. プラグインインストーラーから「GatherMapOverlay」をインストール
+3. Save and restart the game
+4. Install "GatherMapOverlay" from the Plugin Installer
 
-## 設定
+## Configuration
 
-`/xlsettings` → プラグイン → GatherMapOverlay で各アイコンIDをカスタマイズできます。
+Customize icon IDs via `/xlsettings` → Plugins → GatherMapOverlay.
 
-## デフォルトアイコンID
+## Default Icon IDs
 
-| ノードタイプ | アイコンID |
-|-------------|-----------|
-| 採掘（主道具）| 60438 |
-| 砕岩（副道具）| 60437 |
-| 伐採（主道具）| 60433 |
-| 草刈（副道具）| 60432 |
-| 伝説採掘 | 60464 |
-| 伝説園芸 | 60462 |
+| Node Type | Icon ID |
+|-----------|---------|
+| Mining (Primary) | 60438 |
+| Quarrying (Secondary) | 60437 |
+| Logging (Primary) | 60433 |
+| Harvesting (Secondary) | 60432 |
+| Legendary Mining | 60464 |
+| Legendary Botany | 60462 |
 
-## ライセンス
+## License
 
 AGPL-3.0-or-later
