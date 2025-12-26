@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Dalamud.NET.Sdk/14.0.1">
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <DalamudPluginName>GatherMapOverlay</DalamudPluginName>
+    <DalamudPluginAuthor>notYuta</DalamudPluginAuthor>
+    <DalamudPluginDescription>Display gathering node locations on the main map for Miners and Botanists</DalamudPluginDescription>
+    <DalamudPluginPunchline>Gathering node overlay for the main map</DalamudPluginPunchline>
+    <PackageProjectUrl>https://github.com/notYuta/GatherMapOverlay</PackageProjectUrl>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+
+</Project>

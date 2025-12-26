@@ -1,0 +1,16 @@
+# Build results
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Dalamud
+dalamud/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+{
+  "Author": "notYuta",
+  "Name": "GatherMapOverlay",
+  "InternalName": "GatherMapOverlay",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "ギャザラー（採掘師・園芸師）の採集ポイントをメインマップに表示します。",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Gathering node overlay for the main map",
+  "Tags": [
+    "gathering",
+    "miner",
+    "botanist",
+    "map"
+  ]
+}
